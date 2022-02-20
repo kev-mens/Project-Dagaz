@@ -5,12 +5,12 @@ using UnityEngine;
 public class FreeThirdPC : MonoBehaviour
 {
     public GameObject freeLookCam;
-    float moveSpeed= 5f;
+    float moveSpeed= 6f;
     Vector3 moveDir = Vector3.zero;
     Vector3 gravityDir = Vector3.zero;
     CharacterController controller;
-    float gravity = 8f;
-    float rotateSpeed = 10f;
+    float gravity = 9.81f;
+    float rotateSpeed = 11f;
     
     // Start is called before the first frame update
     void Start()
