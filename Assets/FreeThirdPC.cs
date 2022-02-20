@@ -5,7 +5,7 @@ using UnityEngine;
 public class FreeThirdPC : MonoBehaviour
 {
     public GameObject freeLookCam;
-    float moveSpeed= 3.5f;
+    float moveSpeed= 5f;
     Vector3 moveDir = Vector3.zero;
     Vector3 gravityDir = Vector3.zero;
     CharacterController controller;
